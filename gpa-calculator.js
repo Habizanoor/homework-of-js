@@ -1,39 +1,39 @@
 function gpaCalculator(marks){
     if(marks >= 80){
-        console.log("A+");
+        return 'A+';
     }
     else if(marks >= 70 && marks <= 79){
-    console.log("A");
+        return 'A';
     }
     else if(marks >= 60 && marks <= 69){
-        console.log("A-");
+        return 'A-';
     }
     else if(marks >= 50 && marks <= 59){
-        console.log("B");
+        return 'B';
 
     }
     else if(marks >= 40 && marks <= 49){
-        console.log("C");
+        return 'C';
     }
     else if(marks >= 33 && marks <= 39){
-        console.log("D");
+        return 'D';
     }
     else{
-        console.log("F");
+        return 'F';
     }
 }
 const banglaMarks = 80;
-gpaCalculator(banglaMarks);
+console.log(gpaCalculator(banglaMarks));
 
 const mathMarks = 90;
-gpaCalculator(mathMarks);
+console.log(gpaCalculator(mathMarks));
 
 const physicsMarks = 70;
-gpaCalculator(physicsMarks);
+console.log(gpaCalculator(physicsMarks));
 
 const biologyMarks = 75;
-gpaCalculator(biologyMarks);
+console.log(gpaCalculator(biologyMarks));
 
 const englishMarks = 69;
-gpaCalculator(englishMarks);
+console.log(gpaCalculator(englishMarks));
 
